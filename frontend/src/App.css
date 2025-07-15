@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: red;
 }
 
 .App-logo {
@@ -55,3 +56,20 @@
   background-color: darkred;
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tarjeta {
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.bloque-recomendaciones {
+  background-color: #eef;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
